@@ -1,30 +1,54 @@
-   
-.sinopsis{
-  width: 800px;
-  height: 300px;
+* {
+  background-color: rgb(227, 235, 227);
+}
+
+.cabecera {
+  background-color: aquamarine;
+  text-align: center;
+  font-size: 4rem;
+  background-color: cadetblue;
+  color: white;
+  margin: 50px;
+  text-shadow: 3px 5px 5px black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-radius: 6px;
+}
+
+#subtitulo {
+  background-color: rgb(90, 245, 185);
+  text-align: center;
+  font-size: 3rem;
+  padding: 1rem 0;
+  margin: 2rem 25rem;
+  border: solid 1px black;
+  border-radius: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sinopsis {
   font-size: 30px;
-  float: right;
   text-align: justify;
   margin-right: 25px;
-  margin-top: auto;
+  margin-top: 1px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-shadow: 1px 2px 3px gray;
-  background-color: lightgray;
-   
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  background-color: rgb(241, 240, 245);
+  padding: 5px 5px 5px 5px;
+  cursor: pointer;
 }
 
-.cabecera{
-    background-color: aquamarine;
-    text-align: center;
-    font-size: 4rem;
-    background-color: cadetblue;
-    color: white;
-    margin: 50px;
-    text-shadow: 3px 5px 5px black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border-radius: 6px;
-    
-    
+.portadaLN:hover {
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0.1rem 0.1rem 0.6rem rgba(14, 0, 0, 0.5);
 }
 
+.portadaLN {
+  position: relative;
+  float: left;
+  margin-right: 20px;
+  width: 400px;
+}
 
+img {
+  width: 300px;
+}
